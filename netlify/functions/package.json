@@ -1,0 +1,9 @@
+{
+  "name": "welplaytv-functions",
+  "version": "1.0.0",
+  "description": "Netlify Functions for WelPlayTV",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^1.8.4"
+  }
+} 
