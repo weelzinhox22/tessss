@@ -12,8 +12,8 @@
     "install-client": "cd client && npm install",
     "install-server": "cd server && npm install",
     "install-all": "npm run install-deps && npm run install-client && npm run install-server",
-    "build": "cd client && CI=false npm run build",
-    "render-build": "echo 'Starting build process' && npm run install-all && echo 'Dependencies installed' && npm run build && echo 'Build completed'"
+    "build": "cd client && npm run build",
+    "render-build": "echo 'Installing dependencies...' && npm run install-all && echo 'Dependencies installed successfully.' && echo 'Building client...' && cd client && npm run build && echo 'Client built successfully.' && cd .. && echo 'Build process completed successfully.'"
   },
   "keywords": [
     "m3u",
